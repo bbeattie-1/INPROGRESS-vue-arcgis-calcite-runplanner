@@ -4,8 +4,9 @@ import HelloWorld from './components/HelloWorld.vue';
 
 <template>
   <HelloWorld/>
+  <calcite-button>d
+
+  </calcite-button>
 </template>
 
-<style scoped>
-
-</style>
+<style src="@esri/calcite-components/dist/calcite/calcite.css"></style>
