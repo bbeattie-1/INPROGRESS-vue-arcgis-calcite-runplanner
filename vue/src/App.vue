@@ -1,12 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue';
+import '@esri/calcite-components/dist/components/calcite-shell';
+import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <HelloWorld/>
-  <calcite-button>d
-
-  </calcite-button>
+  <calcite-shell>
+    <Navbar/>
+  </calcite-shell>
 </template>
 
 <style src="@esri/calcite-components/dist/calcite/calcite.css"></style>

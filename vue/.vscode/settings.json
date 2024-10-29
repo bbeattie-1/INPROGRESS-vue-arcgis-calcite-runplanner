@@ -1,5 +1,5 @@
 {
   "html.customData": [
-    "vue/node_modules/@esri/calcite-components/dist/extras/vscode-data.json"
+    "/workspaces/vue-arcgis-calcite-runplanner/vue/node_modules/@esri/calcite-components/dist/extras/vscode-data.json"
   ]
 }
