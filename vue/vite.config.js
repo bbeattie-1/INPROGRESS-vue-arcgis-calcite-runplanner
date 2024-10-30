@@ -8,7 +8,7 @@ export default defineConfig({
     {
       template: {
         compilerOptions: {
-          isCustomElement: (tag) => tag.startsWith('calcite-'),
+          isCustomElement: (tag) => tag.startsWith('calcite-') || tag.startsWith('arcgis-'),
         }
       }
     }

@@ -10,7 +10,7 @@ import '@esri/calcite-components/dist/components/calcite-menu-item';
 <template>
   <calcite-navigation slot="header">
     <calcite-navigation-logo slot="logo" icon="running" heading="Run Planner"
-      description="Developed by Ben Beattie | October 26th 2024">He</calcite-navigation-logo>
+      description="Developed by Ben Beattie | October 26th 2024"></calcite-navigation-logo>
     <calcite-menu slot="content-end">
       <calcite-menu-item icon-start="zoom-to-object" text="Reading, PA"></calcite-menu-item>
       <calcite-menu-item icon-start="zoom-to-object" text="Lancaster, PA"></calcite-menu-item>

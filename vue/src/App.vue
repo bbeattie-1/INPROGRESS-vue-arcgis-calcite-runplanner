@@ -1,12 +1,13 @@
 <script setup>
-import '@esri/calcite-components/dist/components/calcite-shell';
+
 import Navbar from './components/Navbar.vue';
+import Map from './components/Map.vue';
+
 </script>
 
 <template>
   <calcite-shell>
     <Navbar/>
+    <Map/>
   </calcite-shell>
 </template>
-
-<style src="@esri/calcite-components/dist/calcite/calcite.css"></style>

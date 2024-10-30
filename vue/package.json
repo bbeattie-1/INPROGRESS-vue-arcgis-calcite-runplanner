@@ -9,6 +9,8 @@
     "copy": "ncp ./node_modules/@esri/calcite-components/dist/calcite/assets/ ./public/assets/"
   },
   "dependencies": {
+    "@arcgis/core": "^4.30.9",
+    "@arcgis/map-components": "^4.30.7",
     "@esri/calcite-components": "^2.13.2",
     "vue": "^3.2.45"
   },
